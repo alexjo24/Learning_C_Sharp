@@ -81,16 +81,19 @@ public class LinkedList<T>
 
     }
 
-
+    // Count the number of nodes in the linkedlist. 
+    // If the list is empty return 0,otherwise return number of nodes.
     public int Count(){
 
         Node<T> currentNode = head;
         int cc = 0;
 
+        //Check if the linkedlist is empty
+        //If the list is empty, tell the user that the list is empty.
+        //Otherwise, loop over the list starting from the head.
         if (head == null){
             Console.WriteLine("The linkedlist is empty.");    
         }else{
-            Console.Write("Node data: ");
             while (currentNode != null){
 
                 // Traverse the list by updating currentNode with a pointer to the next node.
@@ -101,15 +104,95 @@ public class LinkedList<T>
         }
         return cc;
     }
-
+    /// <summary>
+    /// Obtain the first node in the linkedlist.
+    /// ".data" can be used for obtaining node data.
+    /// e.g. YourLinkedList.First().data --> return of type T, node data.
+    ///</summary>
     public Node<T> First(){
-        Node<T> firstNode = head;
-        return firstNode;
+        return head;
     }
 
+    /// <summary>
+    /// Obtain the last node in the linkedlist.
+    /// ".data" can be used for obtaining node data.
+    /// e.g. YourLinkedList.Last().data --> return of type T, node data.
+    ///</summary>
     public Node<T> Last(){
-        Node<T> lastNode = tail;
-        return lastNode;
+        return tail;
+    }
+
+    // Find and returns the first node found with the specfied data.
+    // Returns null if no node with the specified data is found.
+    public Node<T> Find(T data){
+        Node<T> currentNode = head;
+
+        Node<T> nodeFound = null;
+
+        //Check if the linkedlist is empty
+        //If the list is empty, tell the user that the list is empty.
+        //Otherwise, loop over the list starting from the head.
+        if (head == null){
+            Console.WriteLine("The linkedlist is empty.");    
+        }else{
+            while (currentNode != null && nodeFound == null){
+                
+                // Compare if input data is equal to current node data in the loop. Compares generic types.
+                if (currentNode.data.Equals(data)){
+                    nodeFound = currentNode;
+                }
+
+                // Traverse the list by updating currentNode with a pointer to the next node.
+                currentNode = currentNode.next;
+
+
+            }
+         }
+         return nodeFound;
+    }
+
+    // Remove the first node found with the specified data.
+    // Returns true if the node with the specified data is removed, otherwise false.
+    public bool Remove(T data){
+
+        Node<T> currentNode = head;
+        Node<T> previousNode = head;
+
+        bool nodeFound = false;
+
+        //Check if the linkedlist is empty
+        //If the list is empty, tell the user that the list is empty.
+        //Otherwise, loop over the list starting from the head.
+        if (head == null){
+            Console.WriteLine("The linkedlist is empty.");    
+        }else{
+            while (currentNode != null && nodeFound == false){
+                
+                // Compare if input data is equal to current node data in the loop. Compares generic types.
+                if (currentNode.data.Equals(data)){
+                    nodeFound = true;
+
+                    // Check if the node in the loop is the first node in the linkedlist to be removed.
+                    // Point head towards next node instead of current
+                    // Otherwise set pointer for previous Node to point towards the next node, relative to the current node.
+                    if (currentNode.Equals(head)){
+                        head = currentNode.next;
+                    }else{
+                        previousNode.next = currentNode.next;
+                    }
+                    
+
+                }
+
+                // Traverse the list by updating currentNode with a pointer to the next node.
+                previousNode = currentNode;
+                currentNode = currentNode.next;
+                
+
+
+            }
+         }
+         return nodeFound;
     }
 
 
