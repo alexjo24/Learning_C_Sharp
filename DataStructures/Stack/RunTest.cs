@@ -33,6 +33,7 @@ namespace RunTest
                 StackOfStrings.Push("Mouse");
                 System.Console.WriteLine("Peek: "+StackOfStrings.Peek());
                 System.Console.WriteLine("Size of stack: "+StackOfStrings.Count());
+                
 
 
             }
