@@ -34,6 +34,7 @@ namespace RunTest
                 System.Console.WriteLine("Peek: "+StackOfStrings.Peek());
                 System.Console.WriteLine("Size of stack: "+StackOfStrings.Count());
                 
+                
 
 
             }
