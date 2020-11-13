@@ -1,0 +1,13 @@
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\obj\Debug\netcoreapp3.1\BasicPayrollSoftware.csprojAssemblyReference.cache
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\obj\Debug\netcoreapp3.1\BasicPayrollSoftware.AssemblyInfoInputs.cache
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\obj\Debug\netcoreapp3.1\BasicPayrollSoftware.AssemblyInfo.cs
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\obj\Debug\netcoreapp3.1\BasicPayrollSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\bin\Debug\netcoreapp3.1\BasicPayrollSoftware.exe
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\bin\Debug\netcoreapp3.1\BasicPayrollSoftware.deps.json
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\bin\Debug\netcoreapp3.1\BasicPayrollSoftware.runtimeconfig.json
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\bin\Debug\netcoreapp3.1\BasicPayrollSoftware.runtimeconfig.dev.json
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\bin\Debug\netcoreapp3.1\BasicPayrollSoftware.dll
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\bin\Debug\netcoreapp3.1\BasicPayrollSoftware.pdb
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\obj\Debug\netcoreapp3.1\BasicPayrollSoftware.dll
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\obj\Debug\netcoreapp3.1\BasicPayrollSoftware.pdb
+C:\Users\Aleba\Desktop\Git_main\Learning_C_Sharp\BasicPayrollSoftware\obj\Debug\netcoreapp3.1\BasicPayrollSoftware.genruntimeconfig.cache

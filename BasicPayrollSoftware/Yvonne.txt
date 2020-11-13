@@ -1,0 +1,11 @@
+PAYSLIP FOR MAY 2019
+=============================
+Name of Staff: Yvonne
+Hours worked: 123
+
+Basic Pay: 6.150,00 kr
+Allowance: 1.000,00 kr
+
+=============================
+Total Pay: 6.150,00 kr
+=============================

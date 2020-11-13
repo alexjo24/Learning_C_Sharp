@@ -1,0 +1,11 @@
+PAYSLIP FOR MAY 2019
+=============================
+Name of Staff: Carol
+Hours worked: 40
+
+Basic Pay: 1.200,00 kr
+Overtime: 0,00 kr
+
+=============================
+Total Pay: 1.200,00 kr
+=============================

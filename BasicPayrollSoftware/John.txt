@@ -1,0 +1,11 @@
+PAYSLIP FOR MAY 2019
+=============================
+Name of Staff: John
+Hours worked: 250
+
+Basic Pay: 7.500,00 kr
+Overtime: 1.395,00 kr
+
+=============================
+Total Pay: 8.895,00 kr
+=============================
