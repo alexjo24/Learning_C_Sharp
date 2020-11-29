@@ -1,0 +1,4 @@
+Staff with less than 10 hours worked
+
+Name of Staff: Carol, Hours worked: 1
+Name of Staff: Yvonne, Hours worked: 0

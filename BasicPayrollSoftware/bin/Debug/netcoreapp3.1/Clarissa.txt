@@ -1,0 +1,11 @@
+PAYSLIP FOR AUG 2019
+=============================
+Name of Staff: Clarissa
+Hours worked: 15151515
+
+Basic Pay: 757.575.744,00 kr
+Allowance: 1.000,00 kr
+
+=============================
+Total Pay: 757.576.768,00 kr
+=============================
