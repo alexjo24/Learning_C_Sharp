@@ -7,8 +7,8 @@ namespace Program
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            int Min = -100;
-            int Max = 100;
+            int Min = -10;
+            int Max = 10;
             int[] randomArr = new int[Max];
 
             for (int i = 0; i < Max; i++){
